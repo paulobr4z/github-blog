@@ -1,7 +1,9 @@
+import { Header } from '../../components/Header'
+
 export function Blog() {
   return (
     <div>
-      <header>blog</header>
+      <Header />
     </div>
   )
 }
