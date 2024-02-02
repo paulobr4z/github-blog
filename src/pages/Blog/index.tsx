@@ -1,5 +1,6 @@
 import { Header } from '../../components/Header'
 import { Profile } from '../../components/Profile'
+import { SearchBar } from '../../components/SearchBar'
 import { Main } from './styles'
 
 export function Blog() {
@@ -8,6 +9,7 @@ export function Blog() {
       <Header />
       <Main>
         <Profile />
+        <SearchBar />
       </Main>
     </div>
   )
